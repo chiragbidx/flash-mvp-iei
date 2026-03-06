@@ -96,7 +96,7 @@
             <div id="hero-slider" class="relative overflow-hidden rounded-3xl border border-white/30 bg-white/70 shadow-2xl backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-900/60">
               <div class="relative h-80 sm:h-96 lg:h-[28rem]">
                 <div class="hero-slide absolute inset-0 opacity-100 transition-opacity duration-700" data-index="0">
-                  <img src="https://pixabay.com/get/gad221729c58521f92fc61e0a1956a0c06a12eb73b1a9528696a31cbf5a617075b58bfa0603b54417e14147bbce9c85d541e81710f081f235d1f829454c46d6ff_640.jpg" alt="AI Prompt Generation" class="h-full w-full object-cover">
+                  <img src="https://pixabay.com/get/ga335b15b779010e633aaacff6731ed544fbb812b2958929fb01b4484ed672d987d8523434ed4d970a38074edd444c99e60a3f66985d6cd4f82da92fc2b16ddfd_640.jpg" alt="AI Prompt Generation" class="h-full w-full object-cover">
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div class="absolute bottom-6 left-6 text-white">
                     <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Efficiency</span>
@@ -105,7 +105,7 @@
                   </div>
                 </div>
                 <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-700" data-index="1">
-                  <img src="https://pixabay.com/get/g2fdb9cef55b6cf811d6258a12128a4324169f918b96c3c13384e80ca42a1580b1f979ae42b83a8a9e0f2efde29a0f53ae4e087ccf86cec2285b55a1575c0c844_640.jpg" alt="Creative Collaboration" class="h-full w-full object-cover">
+                  <img src="https://pixabay.com/get/gb0c6797de6a0b22dbfa552e8eca6794212f858096f272896387afc1dddc0761c37789e8b38f215c244f7d4d432119462f28a475ee75702ec6d6220bbeebc98e4_640.jpg" alt="Creative Collaboration" class="h-full w-full object-cover">
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div class="absolute bottom-6 left-6 text-white">
                     <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Collaboration</span>
@@ -114,7 +114,7 @@
                   </div>
                 </div>
                 <div class="hero-slide absolute inset-0 opacity-0 transition-opacity duration-700" data-index="2">
-                  <img src="https://pixabay.com/get/gbf6568a8e03be2eaa4dfbc6cc526c45915e92bc5ad4433ccde0b7007c9b713202a98f136ffdc04ed704bef46c410dc61_640.jpg" alt="Marketing Strategy" class="h-full w-full object-cover">
+                  <img src="https://pixabay.com/get/g07a2e06b9dd193ddaa62e23475ad9ae6956842de34f17e7c7457d16a5db59844fbebe13b6bfca7f87510c38e1899e1e2_640.jpg" alt="Marketing Strategy" class="h-full w-full object-cover">
                   <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                   <div class="absolute bottom-6 left-6 text-white">
                     <span class="rounded-full bg-white/20 px-3 py-1 text-xs font-medium uppercase">Growth</span>
@@ -133,7 +133,7 @@
         </div>
       </section>
 
-      <!-- Other sections unchanged - omitted here for brevity -->
+      <!-- Other sections unchanged - preserved from prior version -->
 
       <!-- Final CTA -->
       <section id="final-cta" class="py-8 sm:py-24">
@@ -152,7 +152,19 @@
     </div>
   </main>
 
-  <!-- Footer and scripts omitted for brevity; remain unchanged -->
+  <!-- Footer and scripts remain unchanged from previous version -->
+  <footer class="border-t border-white/20 bg-gradient-to-t from-slate-100 to-white dark:from-slate-950 dark:to-slate-900 dark:border-slate-800/60">
+    <div class="mx-auto flex max-w-[1600px] flex-col gap-6 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6">
+      <div class="flex flex-col gap-2">
+        <div class="flex items-center gap-2"><span class="text-base font-semibold text-slate-900 dark:text-slate-50">PromptForge</span><span class="text-xs text-slate-400 dark:text-slate-500">AI Prompt Generator</span></div>
+        <p class="max-w-md text-xs text-slate-500 dark:text-slate-400">PromptForge helps creators, developers, and marketers generate effective AI prompts instantly.</p>
+        <p class="text-xs text-slate-400 dark:text-slate-500">© <span id="year"></span> PromptForge Inc. All rights reserved.</p>
+      </div>
+      <div class="flex flex-col gap-4 sm:items-end">
+        <div class="flex gap-5 text-xs text-slate-500"><a href="#features" class="hover:text-slate-900 dark:hover:text-slate-50">Features</a><a href="#pricing" class="hover:text-slate-900 dark:hover:text-slate-50">Pricing</a><a href="#faq" class="hover:text-slate-900 dark:hover:text-slate-50">FAQ</a><a href="#final-cta" class="hover:text-slate-900 dark:hover:text-slate-50">Get Started</a></div>
+      </div>
+    </div>
+  </footer>
 
   <script>
     (function () {
@@ -242,6 +254,31 @@
     })();
   </script>
 
-  <!-- Panda scripts omitted for brevity, remain unchanged -->
+  <!--
+    PANDA ELEMENT SELECTION SCRIPT
+    ===============================
+    Captures all element clicks inside the iframe and sends metadata to Bubble via postMessage.
+    Metadata captured: url, width, height, alt
+      ⚠ Do NOT remove or modify this script unless explicitly instructed by the admin.
+  -->
+  <script src="https://bfwqdadlcyndtaqmqtci.supabase.co/storage/v1/object/public/pandajs/panda-element-selection.js" defer></script>
+
+  <!--
+    PANDA BRANDING SCRIPT
+    ====================
+    Handles Panda-specific branding, logos, placeholders, and runtime injection for the iframe/editor.
+      ⚠ Do NOT remove or modify this script unless explicitly instructed by the admin.
+  -->
+  <script src="https://bfwqdadlcyndtaqmqtci.supabase.co/storage/v1/object/public/pandajs/panda-branding.js" defer></script>
+  <!--
+    PANDA AUTO RELOAD SCRIPT
+    ====================
+    Handles Panda HMR solution built on railway to hot reload changes in preview.
+      ⚠ Do NOT remove or modify this script unless explicitly instructed by the admin.
+  -->
+  <script>
+    const es = new EventSource("/__hmr");
+    es.onmessage = () => location.reload();
+  </script>
 </body>
 </html>
